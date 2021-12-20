@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS log_request (
+    created_at TIMESTAMP WITH TIME ZONE DEFAULT CURRENT_TIMESTAMP,
+    message varchar(512)
+);
